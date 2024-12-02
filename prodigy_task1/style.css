@@ -1,0 +1,267 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:#142140;
+  width: 100vw;
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+
+.nav-bar {
+  background: #142140;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 3px 8px rgb(0, 255, 255,0.2);
+  position: fixed;
+  text-overflow: ellipsis;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+}
+.nav-bar-list{
+  display: flex;
+  align-items: right;
+  margin-right: 10px;
+  margin-left: 750px;
+  font-size:20px;
+  right: 2%;
+}
+.nav-item {
+  margin-left: 2rem;
+  float: right;
+}
+.nav-bar-list a{
+  font-weight: 600;
+  color: pink;
+}
+.nav-bar-list a:hover{
+  color:white;
+}
+.main{
+  background: url(./images/iphone11.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+}
+.text{
+  padding-top: 250px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  font-size: 5em;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+  color: #fff;
+}
+.text1{
+  font-weight: lighter;
+}
+.text2{
+  text-transform: capitalize;
+}
+.btn1,
+.btn2{
+  text-transform: capitalize;
+  background-color: #f1f1f1;
+  border: none;
+  font-weight: bold;
+  border-radius: 2em;
+  width: 10em;
+  padding: 10px;
+  font-size: 1em;
+  margin: 200px 200px;
+  cursor: pointer;
+}
+.btn2{
+  margin: -150px;
+}
+.btn1 a{
+  color: #000;
+}
+.btn2 a{
+  color: #000;
+}
+.btn2{
+  opacity: 0.5;
+}
+.about,
+.shop,
+.support,
+.contact{
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+}
+.about h1,
+.shop h1{
+  background-color: #071332;
+  opacity: 1.0;
+  padding: 20px;
+  width: 15em;
+  text-transform: uppercase ;
+  text-align: center;
+  justify-content: center;
+  margin: 2% 20%;
+  color: aqua;
+  font-size: 4em;
+}
+.about p{
+  font-size: 1.5em;
+  margin-left: 10%;
+  text-align: left;
+}
+.about span{
+  font-weight: 600;
+}
+.abt-img{
+  height: 25%;
+  width: 25%;
+  margin: 0 10%;
+  border-radius: 20%;
+}
+.about div,
+.text3{
+  display: flex;
+}
+.img{
+  height: 150px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  background-color: white;
+  transition: 0.3s;
+  width: auto;
+  height:auto;
+  margin: 40px 100px;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 10px; 
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.display{
+  display: flex;
+  position: relative;
+  color: #000;
+  text-align: justify;
+}
+.caption{
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px;
+}
+.btn{
+  text-transform: capitalize;
+  background-color: #f1f1f1;
+  border: none;
+  font-weight: bold;
+  border-radius: 2em;
+  width: 10em;
+  padding: 10px;
+  font-size: 1em;
+  margin: 100px 660px;
+  cursor: pointer;
+}
+.support h1{
+  background-color: #071332;
+  opacity: 1.0;
+  padding: 20px;
+  width: 10em;
+  margin-left: 10%;
+  text-transform: uppercase ;
+  text-align: center;
+  color: aqua;
+  font-size: 4em;
+}
+.support,
+.contact,
+.shop,
+.about{
+  padding: 70px;
+}
+.support p{
+  text-align: justify;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin: 2% 10%;
+  text-align: left;
+}
+.add{
+  background: rgb(0, 255, 255,0.2);
+  width: max-content;
+  height: auto;
+  margin-left: 10%;
+  padding: 10px;
+}
+.add h3{
+  font-size: 2em;
+  text-decoration: underline;
+}
+.add p{
+  font-size: 1.2em;
+  text-align:left;
+}
+.contact h1{
+  background-color: #071332;
+  opacity: 1.0;
+  padding: 20px;
+  width: 10em;
+  margin-left: 10%;
+  text-transform: uppercase ;
+  text-align: center;
+  color: aqua;
+  font-size: 4em;
+}
+.con-img{
+  margin-left:100px;
+}
+.handles{
+  display: grid;
+  margin-left: 10%;
+  padding: 50px;
+  text-decoration: none;
+  width: 40em;
+  background: rgb(0, 255, 255,0.2);
+}
+.handles a{
+color: #fff;
+font-size: 2em;
+margin: 20px;
+}
+.icon{
+  color: #fff;
+  gap: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  color: white;
+  background: black;
+}
